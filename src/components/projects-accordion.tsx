@@ -14,9 +14,9 @@ interface ProjectCategory {
 }
 
 const baseCategories = [
-  { title: "AI Development", projects: prototypeProjects },
+  { title: "AI Development", projects: aiProjects },
   { title: "Gen AI", projects: genAIProjects },
-  { title: "Automations", projects: aiProjects },
+  { title: "Automations", projects: prototypeProjects },
   { title: "Operations", projects: operationsProjects },
 ] as const;
 

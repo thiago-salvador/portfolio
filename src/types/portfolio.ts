@@ -16,6 +16,7 @@ export interface PortfolioProject {
   results?: string[];
   keyFeatures?: string[];
   technologies?: string[];
+  gallery?: string[];
 }
 
 export interface FeaturedItem {

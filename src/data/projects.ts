@@ -3,6 +3,56 @@ import type { PortfolioProject } from "@/types/portfolio";
 export const aiProjects: PortfolioProject[] = [
   {
     tag: "AI PROJECT",
+    title: "Win Like A Löwe – AI-Powered Consultancy Website",
+    category: "AI-Assisted Web Development",
+    description: "A modern, professional website for Win Like A Löwe consultancy, developed entirely using Claude Code on Cursor. This project demonstrates the power of AI-assisted development, showcasing how Claude Code can transform concepts into production-ready websites with efficiency and precision. The website captures the brand's essence of competitive excellence and strategic consulting while being built through human-AI collaboration.",
+    image: "/projects/WLL/New.png",
+    tags: ["AI Development", "Claude Code", "Cursor", "Web Development", "Brand Website", "Consultancy"],
+    slug: "win-like-a-lowe-website",
+    fullDescription: "Website for Win Like A Löwe consultancy. Made with Claude Code on Cursor. This project showcases the cutting-edge capabilities of AI-assisted development, where Claude Code serves as an intelligent coding partner within the Cursor IDE. The development process leveraged Claude's understanding of modern web technologies, design principles, and best practices to create a polished, professional website that effectively communicates the consultancy's brand positioning and services. The project exemplifies how AI tools can accelerate development workflows while maintaining high code quality and design standards.",
+    features: [
+      "As the developer orchestrating this AI-assisted project, my responsibilities included defining the website's scope and requirements for the consultancy brand, collaborating with Claude Code to implement features and functionality, ensuring the final product captured the Win Like A Löwe brand identity and values, managing the development workflow within Cursor IDE, and iterating on design and functionality based on brand requirements and user experience principles."
+    ],
+    technicalHighlights: [
+      {
+        title: "AI-Assisted Development with Claude Code",
+        description: "Leveraged Claude Code's advanced AI capabilities within Cursor IDE to write clean, maintainable code, implement modern web development patterns, and accelerate the development process significantly."
+      },
+      {
+        title: "Brand-Focused Design Implementation",
+        description: "Translated the Win Like A Löwe brand identity—centered on competitive excellence and strategic consulting—into a cohesive web experience with appropriate visual hierarchy, typography, and user flows."
+      },
+      {
+        title: "Modern Web Technologies",
+        description: "Implemented using current web development best practices and modern frameworks, ensuring performance, responsiveness, and maintainability of the final product."
+      },
+      {
+        title: "Human-AI Collaboration Workflow",
+        description: "Demonstrated an effective workflow where human creative direction combines with AI's technical implementation capabilities, resulting in faster time-to-market without compromising quality."
+      }
+    ],
+    keyFeatures: [
+      "PROJECT TYPE: AI-Assisted Web Development",
+      "TOOLS: Claude Code, Cursor IDE",
+      "CLIENT: Win Like A Löwe Consultancy",
+      "DEVELOPMENT APPROACH: Human-AI collaboration",
+      "FOCUS: Professional consultancy web presence",
+      "OUTCOME: Production-ready website"
+    ],
+    results: [
+      "Successfully delivered a professional consultancy website that effectively communicates the Win Like A Löwe brand and services.",
+      "Demonstrated the viability of AI-assisted development for real-world client projects, proving Claude Code's capabilities in production environments.",
+      "Achieved significantly faster development time compared to traditional coding approaches while maintaining code quality and design standards.",
+      "Created a scalable, maintainable codebase that can be easily updated and extended as the consultancy grows.",
+      "Established a reproducible workflow for AI-assisted web development that can be applied to future projects.",
+      "Showcased how AI tools like Claude Code can empower developers to deliver higher quality work in less time.",
+      "Validated the effectiveness of Cursor + Claude Code as a powerful combination for modern web development.",
+      "Proved that AI-assisted development can handle complex requirements including brand alignment, user experience, and technical implementation simultaneously."
+    ],
+    technologies: ["AI Development", "Claude Code", "Cursor", "Web Development", "Brand Website", "Consultancy"]
+  },
+  {
+    tag: "AI PROJECT",
     title: "Client Database – AI-Powered Knowledge Base",
     category: "Automation",
     description: "A workflow that centralizes meeting transcriptions, documents, and insights in an intelligent database, allowing for quick and interactive queries to support strategic decisions.",
@@ -328,6 +378,7 @@ export const aiProjects: PortfolioProject[] = [
     technologies: ["AI", "Computer Vision", "Content Generation", "VIRTUAL PERSONAS"]
   },
 ];
+
 
 export const operationsProjects: PortfolioProject[] = [
   {
@@ -1267,6 +1318,238 @@ export const genAIProjects: PortfolioProject[] = [
   },
   {
     tag: "GEN AI",
+    title: "Impossible Collabs – Bringing Dream Collaborations to Life",
+    category: "Generative AI & Creative Experimentation",
+    description: "A creative series exploring impossible brand and cultural collaborations through AI-generated imagery. Using ByteDance Seedream 4, this project tests the boundaries of AI image generation by creating visual mashups of brands, artists, and cultural icons that would never collaborate in real life. The series demonstrates how generative AI can visualize dream partnerships and creative fusions that exist only in imagination.",
+    image: "/projects/Impossible-Collabs/1.png",
+    tags: ["Generative AI", "Image Generation", "ByteDance Seedream 4", "Brand Mashup", "Creative Series", "Visual Experimentation"],
+    slug: "impossible-collabs",
+    fullDescription: "Creating a new series to test ByteDance Seedream 4 capabilities, making impossible collabs gain life. This experimental series explores the creative potential of AI by visualizing collaborations that would never happen in reality—whether due to brand competition, conflicting aesthetics, or cultural boundaries. By leveraging Seedream 4's advanced image generation capabilities, the project creates compelling visual narratives that merge distinct brand identities, artistic styles, and cultural elements into cohesive, imaginative compositions. Each collaboration tells a story of what could be, pushing the boundaries of creative possibility.",
+    features: [
+      "As the creative director and AI orchestrator for this experimental series, my responsibilities included conceptualizing impossible collaboration concepts that would be visually compelling and culturally interesting, understanding brand identities and aesthetics to create believable yet impossible mashups, prompt engineering to achieve seamless visual integration between disparate elements, testing and pushing the limits of ByteDance Seedream 4's capabilities, and curating a series of images that tell cohesive stories about imaginary partnerships."
+    ],
+    technicalHighlights: [
+      {
+        title: "ByteDance Seedream 4",
+        description: "Utilized Seedream 4's cutting-edge AI image generation technology to create high-quality, detailed visual mashups that seamlessly blend different brand aesthetics and cultural elements."
+      },
+      {
+        title: "Brand Identity Fusion",
+        description: "Successfully merged distinct brand identities, logos, color palettes, and design languages into cohesive visual compositions that feel both impossible and authentic."
+      },
+      {
+        title: "Creative Experimentation",
+        description: "Pushed the boundaries of AI capabilities by testing how well the model can understand and merge complex brand relationships, cultural references, and aesthetic styles."
+      },
+      {
+        title: "Visual Storytelling",
+        description: "Created a series of images that each tell a unique story about what these impossible collaborations would look and feel like, sparking imagination and conversation."
+      }
+    ],
+    keyFeatures: [
+      "PROJECT TYPE: Creative AI Series",
+      "TECHNOLOGY: ByteDance Seedream 4",
+      "CONCEPT: Impossible brand and cultural collaborations",
+      "FORMAT: Image series with multiple mashups",
+      "INNOVATION: Testing AI limits with complex brand fusions",
+      "GOAL: Visualize dream partnerships that defy reality"
+    ],
+    results: [
+      "Successfully created a compelling series of impossible collaborations that showcase the creative potential of AI image generation.",
+      "Demonstrated Seedream 4's advanced capabilities in understanding and merging complex brand identities and cultural references.",
+      "Proved that AI can visualize creative concepts that exist only in imagination, expanding the possibilities for conceptual design work.",
+      "Generated engaging content that sparks conversation about brand identity, collaboration possibilities, and the nature of creative partnerships.",
+      "Established a framework for using AI to explore 'what if' scenarios in brand marketing and creative strategy.",
+      "Showcased advanced prompt engineering skills required to achieve seamless integration of disparate visual elements.",
+      "Created a portfolio piece that demonstrates both creative vision and technical AI proficiency.",
+      "Validated ByteDance Seedream 4 as a powerful tool for conceptual and speculative design projects.",
+      "Inspired discussions about the future of brand collaborations and the role of AI in creative ideation."
+    ],
+    technologies: ["Generative AI", "Image Generation", "ByteDance Seedream 4", "Brand Mashup", "Creative Series", "Visual Experimentation"],
+    gallery: [
+      "/projects/Impossible-Collabs/1.png",
+      "/projects/Impossible-Collabs/2.png",
+      "/projects/Impossible-Collabs/3.png",
+      "/projects/Impossible-Collabs/4.jpeg",
+      "/projects/Impossible-Collabs/CxT.png",
+      "/projects/Impossible-Collabs/CxT2.png",
+      "/projects/Impossible-Collabs/CxT3.png",
+      "/projects/Impossible-Collabs/CxT4.png",
+      "/projects/Impossible-Collabs/MxC.png",
+      "/projects/Impossible-Collabs/MxC2.png",
+      "/projects/Impossible-Collabs/MxC3.png",
+      "/projects/Impossible-Collabs/MxC4.png"
+    ]
+  },
+  {
+    tag: "GEN AI",
+    title: "Street Fighter – Round 1, Fight!",
+    category: "Generative AI & Gaming Culture",
+    description: "A nostalgic tribute to the iconic Street Fighter game, reimagined through AI-generated video. Created in just a couple of hours using Google Nano Banana and Kling AI, this project captures the energy and excitement of the classic fighting game with modern generative AI tools. The result is a dynamic video that brings the beloved franchise to life in a fresh, AI-powered interpretation.",
+    image: "/projects/Impossible-Collabs/1.png",
+    tags: ["Generative AI", "Video Generation", "Gaming", "Street Fighter", "Google Nano Banana", "Kling AI", "Nostalgia"],
+    slug: "street-fighter",
+    fullDescription: "Round 1 - Fight! Did this in a couple of hours with Google Nano Banana and Kling AI. This project is a nostalgic tribute to the iconic Street Fighter franchise, reimagined through the lens of modern generative AI technology. The video captures the essence of the classic fighting game – the intensity, the iconic characters, and the electrifying atmosphere that made Street Fighter a cultural phenomenon. By leveraging Google Nano Banana and Kling AI, this quick experimental piece demonstrates how AI can rapidly create engaging content that resonates with gaming culture and nostalgia.",
+    features: [
+      "As a solo creative experiment, my responsibilities included conceptualizing the Street Fighter tribute, researching and understanding the visual language and aesthetics of the game franchise, prompt engineering to capture the fighting game energy and iconic elements, coordinating Google Nano Banana and Kling AI workflows for optimal results, and quality control to ensure the final video honored the Street Fighter legacy while showcasing AI capabilities."
+    ],
+    technicalHighlights: [
+      {
+        title: "Google Nano Banana",
+        description: "Utilized Google Nano Banana's AI capabilities to generate initial concepts and visual elements that capture the Street Fighter aesthetic and gaming atmosphere."
+      },
+      {
+        title: "Kling AI Video Generation",
+        description: "Leveraged Kling AI's video generation technology to bring the Street Fighter concept to life with dynamic movements, fighting energy, and authentic gaming atmosphere."
+      },
+      {
+        title: "Rapid Production",
+        description: "Completed the entire project in just a couple of hours, demonstrating the efficiency and speed of modern AI video generation tools for creating engaging content."
+      },
+      {
+        title: "Gaming Culture Homage",
+        description: "Successfully captured the iconic elements, energy, and nostalgia of Street Fighter while putting a modern AI-generated spin on the beloved franchise."
+      }
+    ],
+    keyFeatures: [
+      "PROJECT TYPE: Quick AI Gaming Tribute",
+      "TECHNOLOGIES: Google Nano Banana, Kling AI",
+      "FRANCHISE: Street Fighter",
+      "PRODUCTION TIME: Couple of hours",
+      "THEME: Fighting game nostalgia meets modern AI",
+      "STYLE: Dynamic action with gaming energy"
+    ],
+    results: [
+      "Successfully created an engaging Street Fighter tribute video in just a couple of hours, showcasing the rapid content creation capabilities of AI tools.",
+      "Demonstrated how generative AI can be used to create gaming culture content that honors classic franchises while bringing fresh perspectives.",
+      "Explored the intersection of gaming nostalgia and cutting-edge AI technology, creating content that appeals to both retro gaming fans and AI enthusiasts.",
+      "Proved the efficiency of combining Google Nano Banana and Kling AI for quick video production without sacrificing creative vision.",
+      "Captured the iconic energy and atmosphere of Street Fighter through AI-generated visuals, maintaining the franchise's essence.",
+      "Established a workflow for rapid AI video creation that can be applied to other gaming franchises and nostalgia-driven projects.",
+      "Contributed to the growing body of AI-generated gaming content that celebrates classic video game culture.",
+      "Showcased the potential for AI tools to create fan tributes and celebratory content for beloved gaming franchises."
+    ],
+    technologies: ["Generative AI", "Video Generation", "Gaming", "Street Fighter", "Google Nano Banana", "Kling AI", "Nostalgia"]
+  },
+  {
+    tag: "GEN AI",
+    title: "Win Like A Löwe – Brand Moodboard & Positioning",
+    category: "Generative AI & Brand Identity",
+    description: "A comprehensive brand moodboard and creative positioning concept for 'Win Like A Löwe' (Win Like A Lion), exploring powerful visual metaphors of strength, victory, and dominance through AI-generated imagery. This project establishes a bold visual identity that captures the essence of competitive excellence and leadership, creating a cohesive brand language that inspires and motivates.",
+    image: "/projects/WLL/New.png",
+    tags: ["Generative AI", "Image Generation", "Brand Strategy", "Moodboard", "Sports Marketing", "Visual Identity"],
+    slug: "win-like-a-lowe",
+    fullDescription: "Creative concept for the Win Like a Löwe moodboard and creative positioning. This brand strategy project uses AI-generated imagery to develop a powerful visual identity centered around the metaphor of the lion (Löwe in German) as a symbol of strength, victory, and competitive dominance. By leveraging generative AI capabilities, the project creates a comprehensive moodboard that establishes color palettes, visual themes, and aesthetic directions that embody the spirit of winning with the ferocity and grace of a lion. The moodboard serves as a foundational creative guide for brand communications, marketing materials, and visual storytelling.",
+    features: [
+      "As the brand strategist and creative director for this positioning project, my responsibilities included developing the 'Win Like A Löwe' brand concept and positioning strategy, using AI to visualize the lion metaphor across different creative contexts, establishing a bold visual identity that communicates strength and competitive excellence, creating a comprehensive moodboard that guides all brand touchpoints, ensuring visual consistency that reinforces the brand's core message of victory and dominance, and developing a creative language that resonates with competitive and ambitious audiences."
+    ],
+    technicalHighlights: [
+      {
+        title: "Metaphorical Visual Development",
+        description: "Utilized generative AI to create powerful visual metaphors combining the lion's strength and majesty with modern brand aesthetics, creating a unique and memorable visual identity."
+      },
+      {
+        title: "Brand Positioning Strategy",
+        description: "Developed a comprehensive positioning concept that leverages the 'Löwe' (lion) symbolism to communicate competitive excellence, leadership, and the drive to win."
+      },
+      {
+        title: "Athletic & Competitive Aesthetics",
+        description: "Established visual themes that appeal to competitive audiences, combining sports marketing principles with bold, inspiring imagery that motivates and empowers."
+      },
+      {
+        title: "Cohesive Brand Language",
+        description: "Created a unified visual language that can be applied across various brand touchpoints, from marketing materials to social media content, maintaining consistency and impact."
+      }
+    ],
+    keyFeatures: [
+      "PROJECT TYPE: Brand Moodboard & Positioning",
+      "CONCEPT: Win Like A Löwe (Win Like A Lion)",
+      "FOCUS: Strength, victory, competitive excellence",
+      "APPROACH: AI-generated visual metaphors",
+      "TARGET: Competitive and ambitious audiences",
+      "DELIVERABLE: Comprehensive brand moodboard"
+    ],
+    results: [
+      "Successfully created a powerful brand moodboard that captures the essence of competitive excellence and victory through lion symbolism.",
+      "Established a bold visual identity that differentiates 'Win Like A Löwe' with strong, memorable imagery and cohesive aesthetics.",
+      "Developed a positioning strategy that resonates with competitive athletes, entrepreneurs, and ambitious individuals seeking inspiration.",
+      "Demonstrated how AI-generated imagery can effectively communicate abstract brand concepts like strength, dominance, and victory.",
+      "Created reusable visual assets and brand guidelines that ensure consistency across all communications and touchpoints.",
+      "Proved the effectiveness of metaphorical branding using AI to visualize concepts that would be challenging with traditional photography.",
+      "Established design principles rooted in power, elegance, and competitive spirit that guide future creative decisions.",
+      "Generated engaging visual content that inspires and motivates the target audience while reinforcing brand values.",
+      "Showcased the potential for AI in developing sports and performance-focused brand identities."
+    ],
+    technologies: ["Generative AI", "Image Generation", "Brand Strategy", "Moodboard", "Sports Marketing", "Visual Identity"],
+    gallery: [
+      "/projects/WLL/New.png",
+      "/projects/WLL/logo.png",
+      "/projects/WLL/3602f612-0b8a-4b20-97c2-748f983cd3c6.png",
+      "/projects/WLL/97922b32-8cd8-4b34-90a6-95d749ae3454.png",
+      "/projects/WLL/f80835d3-0a33-417d-b0b9-9993ad99a6b4.png"
+    ]
+  },
+  {
+    tag: "GEN AI",
+    title: "Zaaz Moodboard – Creative Concept & Positioning",
+    category: "Generative AI & Brand Strategy",
+    description: "A comprehensive creative moodboard and positioning concept for Zaaz Collective, exploring the brand's visual identity, aesthetic direction, and creative positioning through AI-generated imagery. This project uses generative AI to visualize the brand's essence, values, and creative vision, establishing a cohesive visual language that guides future creative decisions and brand communications.",
+    image: "/projects/Zaaz-Moodboard/02c45605-9abd-43cd-98fa-5d0e74f725c6.png",
+    tags: ["Generative AI", "Image Generation", "Brand Strategy", "Moodboard", "Creative Direction", "Visual Identity"],
+    slug: "zaaz-moodboard",
+    fullDescription: "Creative concept for the Zaaz Collective moodboard and creative positioning. This project explores the intersection of AI-generated imagery and brand strategy, using generative AI tools to create a comprehensive visual moodboard that captures the essence of Zaaz Collective's creative vision. By leveraging AI capabilities, the project develops a cohesive visual language that communicates the brand's values, aesthetic preferences, and creative direction. The moodboard serves as a foundational reference for all future creative work, ensuring consistency and alignment with the brand's positioning in the creator economy.",
+    features: [
+      "As the creative strategist and AI orchestrator for this brand positioning project, my responsibilities included defining the Zaaz Collective's visual identity and aesthetic direction, conceptualizing the brand's creative positioning in the creator economy landscape, using generative AI to explore and visualize brand values and aesthetics, curating a cohesive moodboard that captures the brand essence, ensuring visual consistency across all generated imagery, and establishing a visual language that guides future creative decisions and brand communications."
+    ],
+    technicalHighlights: [
+      {
+        title: "AI-Powered Brand Exploration",
+        description: "Utilized generative AI to rapidly explore multiple visual directions and aesthetic possibilities, enabling data-driven creative decisions about the brand's visual identity."
+      },
+      {
+        title: "Visual Identity Development",
+        description: "Created a comprehensive moodboard that establishes color palettes, design styles, imagery types, and visual themes that define the Zaaz Collective brand."
+      },
+      {
+        title: "Creative Positioning",
+        description: "Developed visual concepts that communicate Zaaz Collective's unique positioning in the creator economy, emphasizing innovation, collaboration, and AI-powered creativity."
+      },
+      {
+        title: "Cohesive Visual Language",
+        description: "Ensured all generated imagery maintains thematic consistency, creating a unified visual narrative that can be extended across all brand touchpoints."
+      }
+    ],
+    keyFeatures: [
+      "PROJECT TYPE: Brand Strategy & Visual Identity",
+      "BRAND: Zaaz Collective",
+      "PURPOSE: Creative moodboard and positioning concept",
+      "APPROACH: AI-generated visual exploration",
+      "DELIVERABLE: Comprehensive brand moodboard",
+      "IMPACT: Foundation for future creative decisions"
+    ],
+    results: [
+      "Successfully created a comprehensive creative moodboard that defines Zaaz Collective's visual identity and aesthetic direction.",
+      "Established a cohesive visual language that guides all future brand communications and creative work.",
+      "Demonstrated how generative AI can accelerate brand strategy and visual identity development processes.",
+      "Developed a positioning concept that differentiates Zaaz Collective in the creator economy landscape.",
+      "Created reusable visual assets and style references that ensure brand consistency across touchpoints.",
+      "Proved the effectiveness of AI-powered moodboarding for rapid creative exploration and decision-making.",
+      "Established design principles and aesthetic guidelines derived from AI-generated visual insights.",
+      "Provided a strategic foundation that aligns creative vision with business objectives and target audience preferences.",
+      "Showcased the potential for AI to augment creative strategy and brand development workflows."
+    ],
+    technologies: ["Generative AI", "Image Generation", "Brand Strategy", "Moodboard", "Creative Direction", "Visual Identity"],
+    gallery: [
+      "/projects/Zaaz-Moodboard/02c45605-9abd-43cd-98fa-5d0e74f725c6.png",
+      "/projects/Zaaz-Moodboard/06cf92f7-ac9c-4331-8a5a-5e6974e116e5.png",
+      "/projects/Zaaz-Moodboard/208b696f-7386-4990-848b-4ceabaa965c6.png",
+      "/projects/Zaaz-Moodboard/60653a9f-2290-4908-bd5b-310550c0077b.png",
+      "/projects/Zaaz-Moodboard/dfd388f8-4f9a-4402-ad8d-2d30c6637e1e.png",
+      "/projects/Zaaz-Moodboard/fcc7bcf4-b92a-43c9-a59b-b7d6c10b700e.png"
+    ]
+  },
+  {
+    tag: "GEN AI",
     title: "No Divã – Art Intervention Campaign",
     category: "Generative AI & Marketing Campaign",
     description: "For launching the digital Book Club 'Clube do Livro no Divã,' I created a series of promotional videos inspired by JACQUEMUS's iconic giant bags in Paris. This project reimagines the book club's logo as a large-scale art intervention on Copacabana Beach in Rio de Janeiro, blending fashion-forward marketing concepts with Brazilian cultural landmarks. Created using cutting-edge AI tools including Google's image generation and Kling AI inside Higgsfield AI, the campaign demonstrates how generative AI can produce stunning, attention-grabbing marketing content that rivals traditional high-budget productions.",
@@ -1523,7 +1806,58 @@ export const genAIProjects: PortfolioProject[] = [
     ],
     technologies: ["Generative AI", "Video Generation", "Speculative Design", "Biomechanics", "Seedream 4", "Veo3", "Future Vision"]
   },
+  {
+    tag: "GEN AI",
+    title: "No Divã Dolls – Book Club Promotional Video",
+    category: "Generative AI & Marketing Content",
+    description: "A creative promotional video for the 'Clube do Livro no Divã' book club, featuring AI-generated doll-style characters and animations. Created with Nano Banana (Google) and Kling AI on Higgsfield AI, this project showcases how generative AI can produce charming, engaging marketing content with a unique aesthetic that stands out in digital book club promotion.",
+    image: "/projects/Zaaz-Moodboard/02c45605-9abd-43cd-98fa-5d0e74f725c6.png",
+    tags: ["Generative AI", "Video Generation", "Marketing", "Book Club", "Google Nano Banana", "Kling AI", "Higgsfield AI"],
+    slug: "no-diva-dolls",
+    fullDescription: "Book Club promo video made with Nano Banana (Google) and Kling AI on Higgsfield AI. This promotional video for 'Clube do Livro no Divã' takes a creative approach to book club marketing by featuring AI-generated doll-style characters and animations. The aesthetic creates a whimsical, approachable feel that resonates with the book club's welcoming community atmosphere. By leveraging Google's Nano Banana and Kling AI through the Higgsfield AI platform, this project demonstrates how modern AI tools can create distinctive marketing content that captures attention and conveys brand personality.",
+    features: [
+      "As the creative director and AI orchestrator for this promotional video, my responsibilities included conceptualizing the doll-style aesthetic for the book club brand, developing the visual narrative that communicates the book club's welcoming atmosphere, coordinating multiple AI tools (Nano Banana, Kling AI on Higgsfield AI) to achieve the desired look and feel, ensuring brand consistency with the 'Clube do Livro no Divã' identity, and producing video content optimized for social media promotion and community engagement."
+    ],
+    technicalHighlights: [
+      {
+        title: "Google Nano Banana",
+        description: "Utilized Google's Nano Banana AI capabilities to generate the initial doll-style character concepts and visual elements that form the foundation of the promotional video."
+      },
+      {
+        title: "Kling AI on Higgsfield AI",
+        description: "Leveraged Kling AI's video generation technology through the Higgsfield AI platform to bring the doll characters to life with smooth animations and engaging movements."
+      },
+      {
+        title: "Doll Aesthetic Design",
+        description: "Created a unique visual style featuring doll-like characters that make the book club content feel approachable, charming, and memorable while standing out from traditional book club marketing."
+      },
+      {
+        title: "Multi-Platform AI Workflow",
+        description: "Demonstrated expertise in coordinating multiple AI platforms and tools to achieve a cohesive creative vision, optimizing each tool's strengths for different aspects of production."
+      }
+    ],
+    keyFeatures: [
+      "PROJECT TYPE: Book Club Promotional Video",
+      "TECHNOLOGIES: Google Nano Banana, Kling AI, Higgsfield AI",
+      "BRAND: Clube do Livro no Divã",
+      "AESTHETIC: Whimsical doll-style characters",
+      "PURPOSE: Social media marketing and community engagement",
+      "STYLE: Charming, approachable, distinctive"
+    ],
+    results: [
+      "Successfully created an engaging promotional video for the book club that stands out from conventional book marketing content.",
+      "Demonstrated how AI-generated doll aesthetics can create a unique brand identity and memorable visual presence for community-focused projects.",
+      "Proved the efficiency of combining Google Nano Banana and Kling AI through Higgsfield AI for creating distinctive marketing content.",
+      "Established a visual style that communicates the book club's welcoming, friendly atmosphere while being eye-catching and shareable.",
+      "Showcased the versatility of generative AI tools for creating various marketing content styles beyond photorealistic approaches.",
+      "Created social media-ready content that enhances the book club's digital presence and helps attract new members.",
+      "Validated the potential for AI-generated marketing content to convey brand personality and community values effectively.",
+      "Established a replicable workflow for creating branded promotional content using multiple AI platforms in harmony."
+    ],
+    technologies: ["Generative AI", "Video Generation", "Marketing", "Book Club", "Google Nano Banana", "Kling AI", "Higgsfield AI"]
+  },
 ];
+
 
 export const allProjects: PortfolioProject[] = [
   ...aiProjects,
