@@ -15,7 +15,7 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Thiago Salvador → AI Specialist & Creative Technologist",
+  title: "AI & Operations Director - Thiago Salvador",
   description: "Operations Director, AI Specialist & Creative Technologist focused on AI, automation, and innovative solutions. Over a decade of experience in technology and business.",
 };
 
