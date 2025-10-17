@@ -68,9 +68,9 @@ export default function MobileNavDrawer() {
   };
 
   const navLinks = [
-    { href: "#work", label: "Work", icon: "💼" },
-    { href: "#portfolio", label: "Projects", icon: "🎨" },
-    { href: "#footer", label: "Contact", icon: "📧" },
+    { href: "#work", label: "Work" },
+    { href: "#portfolio", label: "Projects" },
+    { href: "#footer", label: "Contact" },
   ];
 
   return (
@@ -166,7 +166,6 @@ export default function MobileNavDrawer() {
                         : "hover:bg-white/5 border border-transparent"
                     }`}
                   >
-                    <span className="text-2xl">{link.icon}</span>
                     <span className="font-medium">{link.label}</span>
                     {activeSection === link.href.substring(1) && (
                       <motion.div

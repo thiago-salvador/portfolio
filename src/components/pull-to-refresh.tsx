@@ -138,11 +138,11 @@ export default function PullToRefresh({ onRefresh, children }: PullToRefreshProp
         drag="y"
         dragConstraints={{ top: 0, bottom: 0 }}
         dragElastic={{ top: 0.3, bottom: 0 }}
+        dragDirectionLock
         onDragStart={handleDragStart}
         onDrag={handleDrag}
         onDragEnd={handleDragEnd}
-        style={{ y: isRefreshing ? 0 : undefined }}
-        className="touch-pan-y"
+        style={{ y: isRefreshing ? 0 : undefined, touchAction: 'pan-y' }}
       >
         {children}
       </motion.div>
