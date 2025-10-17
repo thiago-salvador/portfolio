@@ -1,0 +1,34 @@
+# Drawbridge Workflow Integration
+
+This project uses Drawbridge for visual context and task management.
+
+## How to Use Drawbridge
+
+1. **Make comments in browser**: Press `c` to add visual comments to UI elements
+2. **Run bridge command**: Type `bridge` in Cursor to process tasks
+3. **Review changes**: Check the browser for automatic updates (Next.js hot reload)
+
+## Workflow Files
+
+- `moat-tasks.mdc`: Main task list (Markdown format)
+- `moat-task-detail.json`: Detailed task information
+- `drawbridge-workflow.mdc`: Workflow instructions for Cursor
+
+## Commands
+
+- `bridge` - Process all pending tasks from moat-tasks.mdc
+- Alternative: "use @drawbridge-workflow.mdc to process @moat-tasks.mdc"
+
+## Project Context
+
+This is a Next.js 15 portfolio project with:
+- TypeScript
+- Tailwind CSS
+- React 18
+- shadcn/ui components
+
+When processing tasks, maintain consistency with:
+- Black background theme
+- Minimalist design aesthetic
+- Responsive mobile-first approach
+- Existing component patterns
