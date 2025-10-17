@@ -6,7 +6,7 @@ export const aiProjects: PortfolioProject[] = [
     title: "Win Like A Löwe – AI-Powered Consultancy Website",
     category: "AI-Assisted Web Development",
     description: "A modern, professional website for Win Like A Löwe consultancy, developed entirely using Claude Code on Cursor. This project demonstrates the power of AI-assisted development, showcasing how Claude Code can transform concepts into production-ready websites with efficiency and precision. The website captures the brand's essence of competitive excellence and strategic consulting while being built through human-AI collaboration.",
-    image: "/projects/WLL/New.png",
+    image: "/projects/WLL/demo.mov",
     tags: ["AI Development", "Claude Code", "Cursor", "Web Development", "Brand Website", "Consultancy"],
     slug: "win-like-a-lowe-website",
     fullDescription: "Website for Win Like A Löwe consultancy. Made with Claude Code on Cursor. This project showcases the cutting-edge capabilities of AI-assisted development, where Claude Code serves as an intelligent coding partner within the Cursor IDE. The development process leveraged Claude's understanding of modern web technologies, design principles, and best practices to create a polished, professional website that effectively communicates the consultancy's brand positioning and services. The project exemplifies how AI tools can accelerate development workflows while maintaining high code quality and design standards.",
