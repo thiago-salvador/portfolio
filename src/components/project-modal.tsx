@@ -82,7 +82,7 @@ export default function ProjectModal({ project, isOpen, onClose }: ProjectModalP
 
           {/* Modal Content */}
           <motion.div
-            layoutId={`project-${project.id}`}
+            layoutId={`project-${project.title}`}
             initial={{ scale: 0.95, opacity: 0, y: 20 }}
             animate={{ scale: 1, opacity: 1, y: 0 }}
             exit={{ scale: 0.95, opacity: 0, y: 20 }}

@@ -3,32 +3,32 @@
 import { useEffect, useState } from "react";
 import { motion, AnimatePresence } from "framer-motion";
 
+// Konami code constant outside component to avoid recreation
+const KONAMI_CODE = [
+  "ArrowUp",
+  "ArrowUp",
+  "ArrowDown",
+  "ArrowDown",
+  "ArrowLeft",
+  "ArrowRight",
+  "ArrowLeft",
+  "ArrowRight",
+  "b",
+  "a",
+];
+
 export default function EasterEggs() {
   const [konamiActive, setKonamiActive] = useState(false);
   const [konamiIndex, setKonamiIndex] = useState(0);
 
-  // Konami code: ↑ ↑ ↓ ↓ ← → ← → B A
-  const konamiCode = [
-    "ArrowUp",
-    "ArrowUp",
-    "ArrowDown",
-    "ArrowDown",
-    "ArrowLeft",
-    "ArrowRight",
-    "ArrowLeft",
-    "ArrowRight",
-    "b",
-    "a",
-  ];
-
   useEffect(() => {
     const handleKeyDown = (e: KeyboardEvent) => {
       const key = e.key.toLowerCase();
-      const expected = konamiCode[konamiIndex].toLowerCase();
+      const expected = KONAMI_CODE[konamiIndex].toLowerCase();
 
       if (key === expected) {
         const newIndex = konamiIndex + 1;
-        if (newIndex === konamiCode.length) {
+        if (newIndex === KONAMI_CODE.length) {
           setKonamiActive(true);
           setKonamiIndex(0);
           setTimeout(() => setKonamiActive(false), 5000);
