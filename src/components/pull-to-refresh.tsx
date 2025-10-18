@@ -11,11 +11,23 @@ interface PullToRefreshProps {
 export default function PullToRefresh({ onRefresh, children }: PullToRefreshProps) {
   const [isRefreshing, setIsRefreshing] = useState(false);
   const [isPulling, setIsPulling] = useState(false);
+  const [canDrag, setCanDrag] = useState(false);
   const y = useMotionValue(0);
   const containerRef = useRef<HTMLDivElement>(null);
 
   const pullThreshold = 80;
   const maxPull = 120;
+
+  // Check if at top of page
+  useEffect(() => {
+    const checkScrollPosition = () => {
+      setCanDrag(window.scrollY === 0);
+    };
+
+    checkScrollPosition();
+    window.addEventListener('scroll', checkScrollPosition, { passive: true });
+    return () => window.removeEventListener('scroll', checkScrollPosition);
+  }, []);
 
   // Transform pull distance to rotation
   const rotation = useTransform(y, [0, maxPull], [0, 360]);
@@ -35,11 +47,11 @@ export default function PullToRefresh({ onRefresh, children }: PullToRefreshProp
   };
 
   const handleDragStart = () => {
-    if (isRefreshing) return;
+    if (isRefreshing || !canDrag) return;
 
     // Only allow pull if at top of page
     const isAtTop = window.scrollY === 0;
-    if (isAtTop) {
+    if (isAtTop && canDrag) {
       setIsPulling(true);
     }
   };
@@ -135,14 +147,14 @@ export default function PullToRefresh({ onRefresh, children }: PullToRefreshProp
 
       {/* Content wrapper */}
       <motion.div
-        drag="y"
+        drag={canDrag && isPulling ? "y" : false}
         dragConstraints={{ top: 0, bottom: 0 }}
         dragElastic={{ top: 0.3, bottom: 0 }}
         dragDirectionLock
         onDragStart={handleDragStart}
         onDrag={handleDrag}
         onDragEnd={handleDragEnd}
-        style={{ y: isRefreshing ? 0 : undefined, touchAction: 'pan-y' }}
+        style={{ y: isRefreshing ? 0 : undefined }}
       >
         {children}
       </motion.div>
